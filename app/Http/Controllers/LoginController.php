@@ -26,7 +26,22 @@ class LoginController extends Controller
             $email = str_replace('.','_',$this->email);
             session_start();    
             $_SESSION['user'] = $email;
-            return redirect()->route('dashboard');
+            return $this->author();
+        }
+    }
+
+    public function author(){
+        $ServiceAccount = ServiceAccount::fromJsonFile(__DIR__.'/FirebaseKey.json');
+        $Firebase = (new Factory)
+            ->withServiceAccount($ServiceAccount)
+            ->create();
+        $database = $Firebase->getDatabase();
+        $user = $_SESSION['user'];
+        $ref = $database->getReference("pengguna/{$user}/pekerjaan");
+        if($ref->getValue() == "admin"){
+            return redirect('admin');
+        }else{
+            return redirect('Dashboard');
         }
     }
 

@@ -6,11 +6,11 @@
             <h6 style="color: orangered;">Dapatkan hadiah</h6>
             <div class="button"></div>
             
+            <a  href="{{url('/tentang')}}">
+                <button class="button1">Lanjut</button>
+            </a>
             <a  href="{{route('login')}}">
                 <button class="button">Masuk</button>
-            </a>
-            <a  href="{{url('/tentang')}}">
-                <button class="button1">Tentang</button>
             </a>
             
         </div>

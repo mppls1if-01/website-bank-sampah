@@ -24,6 +24,11 @@ class VerifyCsrfToken extends Middleware
         'signupAuth',
         '/',
         'dashboard',
-        'logout'
+        'logout',
+        'admin/kupon',
+        'admin/riwayatkupon',
+        'admin/sampah',
+        'admin/sampahelektronik',
+        'admin/profil',
     ];
 }

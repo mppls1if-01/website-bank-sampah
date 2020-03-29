@@ -30,7 +30,7 @@
     
       <a class="nav-item nav-link text-dark"  href="{{url('/tentang')}}">Tentang</a>
       <a class="nav-item nav-link" href="{{route('profil')}}"> <img src="{{asset ('assets/image/user.png') }}" width="30px"></a>
-      <a class="nav-item nav-link" href="#"><img src="{{asset ('assets/image/keranjang.png') }}" width="30px"></a>
+      <a class="nav-item nav-link" href="{{url('/Keranjang')}}"><img src="{{asset ('assets/image/keranjang.png') }}" width="30px"></a>
     
     </div>
   </div>

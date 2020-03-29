@@ -1,101 +1,146 @@
 .logo img{
-    position: relative;
-    width: 100px;
-    height: 100px;
+  position: relative;
+  width: 100px;
+  height: 100px;
 }
 
 #container{
-    max-width: 1024px;
-    max-height: auto;
-    margin: 20px auto;
-    padding: 0px;
-    overflow: hidden;
-  }
+  max-width: 1024px;
+  max-height: auto;
+  margin: 20px auto;
+  padding: 0px;
+  overflow: hidden;
+}
 
-  .sampah img{
-    position: relative;
-    float: left;
-    width: 65%;
-    height: 400px;
-  }
+.sampah img{
+  position: relative;
+  float: left;
+  width: 65%;
+  height: 400px;
+}
 
-  .text{
-   
-    background-color: green;
-  }
+.text{
+ 
+  background-color: green;
+}
 
-  .footer{
-    max-width: 1024px;
-    max-height: auto;
-    margin: 20px auto;
-    padding: 0px;
-    overflow: hidden;
-    background-color: green;
-  }
+.footer{
+  max-width: 1024px;
+  max-height: auto;
+  margin: 20px auto;
+  padding: 0px;
+  overflow: hidden;
+  background-color: green;
+}
 
-  .gambar img {
-    position: relative;
-    float: left;
-    width: 100%;
-    height: 550px;
-  }
+.gambar img {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 650px;
+}
 
-  .gambar .text1{
-    position: relative;
-    float: left;
-    height: 400px;
-    width: 180px;
-    position: absolute;
-    top: 150px;
-    left: 35px;
-    
-  }
-
-  .gambar .text2{
-    position: relative;
-    float: left;
-    height: 400px;
-    width: 180px;
-    position: absolute;
-    top: 150px;
-    left: 35px;
-    
-  }
-
-  .button{
-    background-color: #4040ff;
-    border-radius: 20px;
-    width: 100px;
-    position: absolute;
-    top: 400px;
-    
-  }
-
-  .button1{
-    background-color: #4040ff;
-    border-radius: 20px;
-    width: 100px;
-    position: absolute;
-    top: 400px;
-    left: 120px;
-    
-  }
-
-  .nama{
-    font-size: 50px;
-  }
-
-  .fieldset{
-    border: 10px;
-  }
-
-  .tukar{
-    position: absolute;
-    left: 120px;
-  }
-
+.gambar .text1{
+  position: relative;
+  float: left;
+  height: 400px;
+  width: 180px;
+  position: absolute;
+  top: 150px;
+  left: 35px;
   
+}
 
- 
- 
+.gambar .text2{
+  position: relative;
+  float: left;
+  height: 400px;
+  width: 180px;
+  position: absolute;
+  top: 150px;
+  left: 35px;
+  
+}
 
+.button{
+  background-color: #4040ff;
+  border-radius: 20px;
+  width: 100px;
+  position: absolute;
+  top: 400px;
+  
+}
+
+.button1{
+  background-color: #4040ff;
+  border-radius: 20px;
+  width: 100px;
+  position: absolute;
+  top: 400px;
+  left: 120px;
+  
+}
+
+.nama{
+  font-size: 50px;
+}
+
+.fieldset{
+  border: 10px;
+}
+
+.tukar{
+  position: absolute;
+  left: 120px;
+}
+
+.gambar1{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.gambar1 img {
+  width: 100%;
+  position: absolute;
+  left: -10px;
+  top: -220px;
+}
+
+.text2{
+  position: relative;
+  float : right;
+  margin-right: 50px;
+}
+
+.judul{
+  background-color: gray;
+  width:60px;
+}
+
+.sidebar {
+  height: 98%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #398963;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+
+.main {
+  margin-top: 100px;
+  margin-left: 250px;
+  padding: 0px 10px;
+}

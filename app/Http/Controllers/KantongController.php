@@ -23,7 +23,7 @@ class KantongController extends Controller
             ->withServiceAccount($ServiceAccount)
             ->create();
         $database = $Firebase->getDatabase();
-        $ref = $database->getReference("kantong");
+        $ref = $database->getReference('kantong');
         $key = $ref->push()->getKey();
         $this->id_kantong = $key;
         $ref->getChild($this->uid)->set([
